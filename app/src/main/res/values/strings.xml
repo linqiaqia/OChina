@@ -1,0 +1,748 @@
+<resources>
+    <string name="app_name">OChina</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">setting</string>
+
+    <string name="main_menu_login">用户登录</string>
+    <string name="main_menu_logout">注销登录</string>
+    <string name="main_menu_myinfo">我的资料</string>
+    <string name="main_menu_software">开源软件</string>
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_sweep">扫一扫</string>
+    <string name="main_menu_picshow">显示图片</string>
+    <string name="main_menu_picnoshow">隐藏图片</string>
+    <string name="main_menu_cache">清除缓存</string>
+    <string name="main_menu_email">意见反馈</string>
+    <string name="main_menu_about">关于我们</string>
+    <string name="main_menu_setting">系统设置</string>
+    <string name="main_menu_exit">退出程序</string>
+    <string name="main_menu_login_tips">点击登录</string>
+
+    <string name="frame_title_news">资讯</string>
+    <string name="frame_title_news_lastest">最新资讯</string>
+    <string name="frame_title_news_blog">最新博客</string>
+    <string name="frame_title_news_recommend">推荐阅读</string>
+    <string name="frame_title_question_ask">问答</string>
+    <string name="frame_title_question_share">分享</string>
+    <string name="frame_title_question_other">综合</string>
+    <string name="frame_title_question_job">职业</string>
+    <string name="frame_title_question_site">站务</string>
+    <string name="frame_title_tweet">动弹</string>
+    <string name="frame_title_tweet_lastest">最新动弹</string>
+    <string name="frame_title_tweet_hot">热门动弹</string>
+    <string name="frame_title_tweet_my">我的动弹</string>
+    <string name="frame_title_tweet_send">动弹一下</string>
+    <string name="frame_title_active">我的空间</string>
+    <string name="frame_title_active_lastest">最新动态</string>
+    <string name="frame_title_active_atme">\@我</string>
+    <string name="frame_title_active_comment">评论</string>
+    <string name="frame_title_active_myself">我自己</string>
+    <string name="frame_title_active_message">留言</string>
+
+    <string name="frame_title_software">开源软件</string>
+    <string name="frame_title_software_recommon">推荐</string>
+    <string name="frame_title_software_lastest">最新</string>
+    <string name="frame_title_software_hot">最热</string>
+    <string name="frame_title_software_china">国产</string>
+
+    <string name="footbar_refresh">刷新</string>
+    <string name="footbar_comment">评论</string>
+    <string name="footbar_share">分享</string>
+    <string name="footbar_favorite">收藏</string>
+    <string name="footbar_more">更多</string>
+
+    <string name="login_dialog_title">登录开源中国</string>
+    <string name="login_dialog_logo">开源中国</string>
+    <string name="login_dialog_account">账号:</string>
+    <string name="login_dialog_account_hint">输入账号/邮箱</string>
+    <string name="login_dialog_password">密码:</string>
+    <string name="login_dialog_password_hint">输入密码</string>
+    <string name="login_dialog_reg">注册帐号</string>
+    <string name="login_dialog_login">登  录</string>
+    <string name="login_dialog_rememberPW">记住密码:</string>
+    <string name="login_dialog_autoLogin">自动登录:</string>
+    <string name="login_dialog_rememberMe">记住我的登录信息</string>
+    <string name="login_dialog_tips">正在登录,请稍候...</string>
+
+    <string name="news_detail_head_title">新闻正文</string>
+    <string name="news_detail_lable_pub">发布于</string>
+    <string name="news_detail_publish_comment">发表评论</string>
+
+    <string name="question_detail_head_title">帖子正文</string>
+    <string name="question_pub_head_title">我要发帖</string>
+    <string name="blog_detail_head_title">博客正文</string>
+    <string name="software_detail_head_title">软件详情</string>
+    <string name="tweet_detail_head_title">动弹详情</string>
+    <string name="tweet_pub_head_title">动弹一下</string>
+    <string name="tweet_chatfooter_cancel_rcd">手指上滑，取消发送</string>
+    <string name="tweet_chatfooter_cancel_rcd_release">松开手指，取消发送</string>
+    <string name="tweet_chatfooter_too_short">录音时间太短</string>
+    <string name="message_detail_head_title">我和%s的对话</string>
+    <string name="user_center_head_title">用户空间</string>
+
+    <string name="user_friend_head_title">我的好友</string>
+    <string name="user_friend_follower">关注(%d)</string>
+    <string name="user_friend_fans">粉丝(%d)</string>
+
+    <string name="comment_send">发表</string>
+    <string name="comment_original_text">原文</string>
+    <string name="comment_list_head_title">网友评论</string>
+    <string name="comment_listitem_type">发布于</string>
+    <string name="comment_pub_head_title">评论回复</string>
+    <string name="comment_pub_content_hint">输入评论</string>
+    <string name="comment_reply_title">---共有 %d 条评论---</string>
+    <string name="comment_notnull_tips">评论不能为空</string>
+    <string name="comment_publish_loading">正在发表，请稍候...</string>
+    <string name="comment_publish_success">评论成功!</string>
+    <string name="comment_answer_view_count">%1$d回%2$d阅</string>
+
+    <string name="software_detail_license">授权协议：</string>
+    <string name="software_detail_language">开发语言：</string>
+    <string name="software_detail_os">操作系统：</string>
+    <string name="software_detail_recordtime">收录时间：</string>
+    <string name="software_detail_homepage">软件首页</string>
+    <string name="software_detail_download">软件下载</string>
+    <string name="software_detail_document">软件文档</string>
+
+    <string name="img_from_camera">手机拍照</string>
+    <string name="img_from_album">手机相册</string>
+    <string name="ui_insert_image">插入图片</string>
+
+    <string name="setting_head_title">系统设置</string>
+    <string name="capture_head_title">扫一扫</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+
+    <string name="userinfo_title">我的资料</string>
+    <string name="userinfo_edit_avatar">编辑头像</string>
+    <string name="userinfo_favorites">收藏：</string>
+    <string name="userinfo_followers">关注：</string>
+    <string name="userinfo_fans">粉丝：</string>
+    <string name="userinfo_join_time">加入时间：</string>
+    <string name="userinfo_area">所在地区：</string>
+    <string name="userinfo_dev_platform">开发平台：</string>
+    <string name="userinfo_expertise">专长领域：</string>
+    <string name="userinfo_upload_avatar_title">上传头像</string>
+    <string name="userinfo_upload_avatar_choose">选择图片</string>
+
+    <string name="publish_post_headline_title">标题：</string>
+    <string name="publish_post_input_title_hint">输入标题</string>
+    <string name="publish_post_headline_category">分类：</string>
+    <string name="publish_post_headline_question">请对问题进行详细描述：</string>
+    <string name="publish_post_input_question_hint">输入提问内容</string>
+    <string name="publish_post_email_notify">有人回答时邮件通知我</string>
+    <string name="publish_post_button">发布</string>
+    <string name="publish_post_wait_tips">正在发布中...</string>
+    <string name="publish_post_error_tips1">请输入标题</string>
+    <string name="publish_post_error_tips2">请输入提问内容</string>
+
+    <string name="publish_tweet_input_content_hint">请输入动弹内容</string>
+    <string name="publish_tweet_wait_tips">动弹后台发布中···</string>
+    <string name="publish_tweet_default_voice_text">\#语音分享\#</string>
+    <string name="publish_tweet_voice_tips">按住  说话</string>
+    <string name="publish_tweet_voice_cancel_tips">松开  结束</string>
+    <string name="publish_tweet_voice_time_tips">录音时间还剩下%1$d秒</string>
+    <string name="publish_tweet_at_text">\@请输入用户名</string>
+    <string name="publish_tweet_software_text">\#请输入软件名\#</string>
+    <string name="publish_tweet_success">动弹发布成功!</string>
+    <string name="publish_tweet_fail">动弹发布失败...</string>
+
+    <string name="favorite_headline_title">我的收藏夹</string>
+    <string name="favorite_software_title">软件</string>
+    <string name="favorite_post_title">话题</string>
+    <string name="favorite_code_title">代码</string>
+    <string name="favorite_blog_title">博客</string>
+    <string name="favorite_news_title">资讯</string>
+
+    <string name="friends_headline_title">我的好友</string>
+    <string name="friends_follower">关注</string>
+    <string name="friends_fans">粉丝</string>
+
+    <string name="settings_category_accountmanager">账号管理</string>
+    <string name="settings_category_function">功能设置</string>
+    <string name="settings_category_cache">缓存设置</string>
+    <string name="settings_category_other">其他</string>
+
+    <string name="settings_title_login">用户登录</string>
+    <string name="settings_title_myinfo">我的资料</string>
+    <string name="settings_title_saveimagepath">图片保存路径</string>
+    <string name="settings_title_httpslogin">HTTPS登录</string>
+    <string name="settings_title_loadimage">加载图片</string>
+    <string name="settings_title_voice">提示声音</string>
+    <string name="settings_title_checkup">启动检查更新</string>
+    <string name="settings_title_cache">清除缓存</string>
+    <string name="settings_title_feedback">意见反馈</string>
+    <string name="settings_title_update">新版本检测</string>
+    <string name="settings_title_about">关于我们</string>
+
+    <string name="settings_summary_myinfo">我的信息、收藏、粉丝...</string>
+    <string name="settings_summary_saveimagepath">设置图片的保存路径</string>
+    <string name="settings_summary_imagepath">目前路径:%1$s</string>
+    <string name="settings_summary_httpslogin_on">当前以HTTPS登录</string>
+    <string name="settings_summary_httpslogin_off">当前以HTTP登录</string>
+    <string name="settings_summary_loadimage_on">页面加载图片 (默认在WIFI网络下加载图片)</string>
+    <string name="settings_summary_loadimage_off">页面不加载图片 (默认在WIFI网络下加载图片)</string>
+    <string name="settings_summary_voice_on">已开启提示声音</string>
+    <string name="settings_summary_voice_off">已关闭提示声音</string>
+    <string name="settings_summary_checkup">启动程序时检查版本更新</string>
+    <string name="settings_summary_feedback">用户意见反馈</string>
+    <string name="settings_summary_update">检测是否有新版本</string>
+    <string name="settings_summary_about">关于我们、版权信息</string>
+
+    <string name="settings_cache_dialog_title">输入图片保存路径</string>
+    <string name="settings_saveimage_path_error1">设置路径失败，这是一个文件!</string>
+    <string name="settings_saveimage_path_error2">设置路径失败，创建文件夹失败!</string>
+    <string name="settings_saveimage_path_error3">设置路径失败，该目录不可写!</string>
+    <string name="miaomiao">"<oschina>
+<catalog>1</catalog>
+<newsCount>0</newsCount>
+<pagesize>20</pagesize>
+<newslist>
+<news>
+<id>70235</id>
+<title>
+<![CDATA[ ROSA R7 "Desktop Fresh" 发布 ]]>
+</title>
+<body>
+<![CDATA[
+ROSA R7 "Desktop Fresh" 发布，该版本支持 H.265 ，使用 4.1.15 内核，...
+]]>
+</body>
+<commentCount>0</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 17:46:52</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70234</id>
+<title>
+<![CDATA[ Gitlab 8.4.1 发布，Git 代码托管平台 ]]>
+</title>
+<body>
+<![CDATA[
+Gitlab 8.4.1 发布了，改进记录包括：   - Apply security updates for...
+]]>
+</body>
+<commentCount>2</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 17:42:07</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70233</id>
+<title>
+<![CDATA[ MacDown 0.5.4 发布，MarkDown 编辑器 ]]>
+</title>
+<body>
+<![CDATA[
+MacDown 0.5.4 发布，改进记录如下： Fixed a bug causing text being i...
+]]>
+</body>
+<commentCount>1</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 17:37:40</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70232</id>
+<title>
+<![CDATA[ 微软开源深度学习工具包：助推语音识别发展 ]]>
+</title>
+<body>
+<![CDATA[ 为了加速人工智能和语音识别项目的发展，微软研究人员特地开发出了一款用... ]]>
+</body>
+<commentCount>0</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 17:26:28</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70231</id>
+<title>
+<![CDATA[ MongoDB 3.0.9 发布 ]]>
+</title>
+<body>
+<![CDATA[
+MongoDB 3.0.9 发布，更新如下： Fixed issue where queries which spec...
+]]>
+</body>
+<commentCount>2</commentCount>
+<author>
+<![CDATA[ 淡漠悠然 ]]>
+</author>
+<authorid>2305107</authorid>
+<pubDate>2016-01-26 15:34:06</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>2305107</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70230</id>
+<title>
+<![CDATA[ JFinal 社区 v2.0 版更新 ]]>
+</title>
+<body>
+<![CDATA[ 前端 去掉了textarea编辑框,换成了wangEditor 更新了首页显示的样式,个人... ]]>
+</body>
+<commentCount>12</commentCount>
+<author>
+<![CDATA[ 朋也 ]]>
+</author>
+<authorid>273712</authorid>
+<pubDate>2016-01-26 14:49:40</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>273712</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70229</id>
+<title>
+<![CDATA[ VirtualBox 5.0.14 发布了 ]]>
+</title>
+<body>
+<![CDATA[ VirtualBox 5.0.14 发布了！这个版本是个主要是问题修复的小版本。 相关... ]]>
+</body>
+<commentCount>7</commentCount>
+<author>
+<![CDATA[ daxiaoming ]]>
+</author>
+<authorid>617359</authorid>
+<pubDate>2016-01-26 14:19:41</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>617359</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70228</id>
+<title>
+<![CDATA[ 2015-2016 前端架构体系技术图谱 ]]>
+</title>
+<body>
+<![CDATA[    2015-2016前端架构体系技术图谱 ]]>
+</body>
+<commentCount>25</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 12:31:41</pubDate>
+<url>http://my.oschina.net/zhangstephen/blog/609680</url>
+<newstype>
+<type>3</type>
+<attachment>609680</attachment>
+<authoruid2>192415</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70227</id>
+<title>
+<![CDATA[ Git@OSC 上周更新汇总 —— 增加 issue 置顶功能 ]]>
+</title>
+<body>
+<![CDATA[ 一、新增特性  1.私信对话界面，左侧添加最近私信联系人，方便切换联系... ]]>
+</body>
+<commentCount>4</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 12:14:11</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70226</id>
+<title>
+<![CDATA[ Glide 3.7.0 发布，Android 图片加载和缓存库 ]]>
+</title>
+<body>
+<![CDATA[
+Glide 3.7.0 是一个小型的 feature/bugfix 发布： 特性 Add integratio...
+]]>
+</body>
+<commentCount>4</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 11:29:36</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70225</id>
+<title>
+<![CDATA[ Calamari 1.3.1.2 发布，Ceph 管理和监控服务 ]]>
+</title>
+<body>
+<![CDATA[
+Calamari 1.3.1.2 发布，下载页面：1.3.2 Calamari 是 Ceph 的管理和监控...
+]]>
+</body>
+<commentCount>0</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 11:23:22</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70224</id>
+<title>
+<![CDATA[ echarts 3.0.2 发布，优化 tooltip 联动 ]]>
+</title>
+<body>
+<![CDATA[ echarts 3.0.2 发布，更新如下： [^] 修复散点图无法高亮的问题。 [^] ... ]]>
+</body>
+<commentCount>0</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 11:20:42</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70222</id>
+<title>
+<![CDATA[ Mathematica 10.3.1 已经正式发布 ]]>
+</title>
+<body>
+<![CDATA[
+Mathematica 10.3.1已经正式发布! 2015年Mathematica软件的更新速度非...
+]]>
+</body>
+<commentCount>6</commentCount>
+<author>
+<![CDATA[ amberstellar ]]>
+</author>
+<authorid>2620791</authorid>
+<pubDate>2016-01-26 09:50:49</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>2620791</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70221</id>
+<title>
+<![CDATA[ Srb4j —— JAX-RS 服务端代码脚手架 ]]>
+</title>
+<body>
+<![CDATA[
+srb4j, Simple RESTFul backend for Java,  一个JAX-RS服务端代码脚手架...
+]]>
+</body>
+<commentCount>0</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 08:18:30</pubDate>
+<url>http://www.oschina.net/p/srb4j</url>
+<newstype>
+<type>1</type>
+<attachment>srb4j</attachment>
+<authoruid2>2620791</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70220</id>
+<title>
+<![CDATA[ 每日一博 | Spark 本地开发环境搭建 ]]>
+</title>
+<body>
+<![CDATA[ Spark本地开发环境搭建 ]]>
+</body>
+<commentCount>2</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 08:17:18</pubDate>
+<url>http://my.oschina.net/zjzhai/blog/608879</url>
+<newstype>
+<type>3</type>
+<attachment>608879</attachment>
+<authoruid2>181141</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70219</id>
+<title>
+<![CDATA[ Git@OSC 推荐 | 纯真 ip 库的 golang 服务 ]]>
+</title>
+<body>
+<![CDATA[ 纯真 IP 库的一个服务。通过http提供一个ip地址归属地查询支持 ]]>
+</body>
+<commentCount>0</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 08:16:13</pubDate>
+<url>http://git.oschina.net/freshcn/qqwry</url>
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70218</id>
+<title>
+<![CDATA[ OSChina 周二乱弹 —— 我国领先世界的 IT 技术 ]]>
+</title>
+<body>
+<![CDATA[ 周二！最近天气太冷，以至于人都生病了，还去了一趟医院做手术 ]]>
+</body>
+<commentCount>27</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 08:15:19</pubDate>
+<url>http://my.oschina.net/xxiaobian/blog/609302</url>
+<newstype>
+<type>3</type>
+<attachment>609302</attachment>
+<authoruid2>1428332</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70217</id>
+<title>
+<![CDATA[ 升级TCP协议使网速提升30%，中国受益明显 ]]>
+</title>
+<body>
+<![CDATA[ 美国CDN(内容分发网络)巨头Akamai近期宣布，计划通过新技术对内容进行大... ]]>
+</body>
+<commentCount>25</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 08:14:09</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70216</id>
+<title>
+<![CDATA[ Linux Kernel longterm 3.18.26 发布 ]]>
+</title>
+<body>
+<![CDATA[
+Linux Kernel longterm 3.18.26 发布： [tar.xz] [pgp] [patch] [inc. ...
+]]>
+</body>
+<commentCount>6</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 08:12:46</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+<news>
+<id>70215</id>
+<title>
+<![CDATA[ Linux 基金会回应董事选举章程变化 ]]>
+</title>
+<body>
+<![CDATA[ Linux基金会执行董事Jim Zemlin回应了最近有关董事选举章程的变化。Jim... ]]>
+</body>
+<commentCount>4</commentCount>
+<author>
+<![CDATA[ oschina ]]>
+</author>
+<authorid>1</authorid>
+<pubDate>2016-01-26 08:12:39</pubDate>
+<url />
+<newstype>
+<type>0</type>
+<authoruid2>1</authoruid2>
+<eventurl />
+</newstype>
+</news>
+</newslist>
+<notice>
+<atmeCount>0</atmeCount>
+<msgCount>0</msgCount>
+<reviewCount>0</reviewCount>
+<newFansCount>0</newFansCount>
+<newLikeCount>0</newLikeCount>
+</notice>
+</oschina>"</string>
+    <string name="title_activity_base_detail">BaseDetailActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling2">ScrollingActivity2</string>
+</resources>

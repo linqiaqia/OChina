@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="gray">#808080</color>
+    <color name="list_devider_color">#6b6b6b</color>
+    
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+    <!-- 字体，颜色值 -->
+    <color name="text_black">#FF232723</color>
+    <color name="text_Grey">#bf2b2b2b</color>
+    <color name="text_light_Grey">#bf383838</color>
+    
+</resources>
